@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root{
+    --corcabecalho:#14213d;
+    --corneutra: #E5E5E5;
+    --cormain: #ffb43b;
+    --corextra: #e69b24;
+    
+    --fontepadrao: 'Roboto';
+    --fontepadraomono: 'Roboto Mono';
+    --fontepadraoopensans: 'Open Sans';
+    --fontepadraomontserrat: 'Montserrat';
+    
+}
+
+*{
+margin: 0px;
+    padding: 0px;
+    font-family: var(--fontepadraoopensans);
+    
+}
+
+body{
+    
+}
+header{
+    background-color: var(--corcabecalho);
+    height: 160px;
+}
+header img{
+    height: 120px;
+}
+nav{
+    text-align: right;
+    padding-right: 50px;
+    
+}
+nav> a{
+    font-family: var(--fontepadraomontserrat);
+    font-size: large;
+    text-decoration: none;
+    color: var(--corneutra);
+    margin-right: 50px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+nav>a:hover{
+    background-color: var(--corneutra);
+    color: black;
+}
+
+main{
+    background-color: #ffb43b;
+    padding-left: 15px;
+    box-shadow: 2px 2px 2px black;
+    padding-bottom: 20px;
+}
+main h1{
+    font-family: var(--fontepadraomontserrat);
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #0b1222;
+}
+main h2{
+    font-family: var(--fontepadraomontserrat);
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #0b1222;
+}
+main p{
+    padding-bottom: 20px;
+    text-wrap: balance;
+    
+    font-size: 16px;    
+}
+main a{
+    color: var(--corcabecalho);
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+#irinablok{
+    width: 100%;   
+}
+footer{
+    background-color: var(--corcabecalho);
+    padding: 15px;
+    
+}
+footer p{
+    text-align: center;
+    color: var(--corneutra);
+}
+footer a{
+    color: var(--corextra);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+aside{
+    background-color: var(--corcabecalho);
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
+    
+    color: var(--corneutra);
+}
+aside h3{
+    font-family: var(--fontepadraomontserrat);
+    padding-bottom: 10px;
+    
+    color: var(--corextra);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+aside ul{
+    list-style: inside;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+aside li:hover{
+    background-color: pink;
+    width: 225px;
+    color: black;
+}
+aside a{
+    color: var(--cormain);
+}
+div{
+    background-color: var(--corcabecalho);
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+div p{
+    color: var(--corneutra);
+}
+div h2{
+    color: var(--corextra);
+}
+div a{
+    color: var(--corextra);
+}

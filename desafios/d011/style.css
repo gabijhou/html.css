@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+body{
+    background-color: #087F8C;
+}
+
+header{
+    background-color: #D00000;
+    height: 100px;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+footer{
+    background-color: #D00000;
+    height: 40px;
+}
+
+h1{
+    text-align: center;
+    color: #FFBA08;
+    text-transform: uppercase;
+}
+
+header>p{
+    text-align: center;
+    padding-top: 10px;
+}
