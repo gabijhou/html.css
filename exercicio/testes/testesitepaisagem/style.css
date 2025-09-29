@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Dyrtlane';
+    src: url('fontes/Dyrtlane.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+
+body{
+    background-image: url('imagens/por-do-sol-inverno.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+#logo{
+    height: 70px;
+}
+.redesociais{
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 10px;
+    position: relative;
+    left: 1100px;
+}
+header nav a{
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    left: 475px;
+    bottom: 40px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+header nav a:hover{
+    text-decoration: underline wavy;
+    text-decoration-color: white;
+}
+h1{
+    font-family: 'Dyrtlane';
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 200px;
+}
+main p{
+    background-color: white;
+    text-align: center;    
+}
+main nav a{
+
+}
